@@ -1,0 +1,44 @@
+/*
+ * Solomon Dominion — Locked Brand Tokens
+ * Purple + gold from the ground up. Cheatcode #1.
+ * Forklifted from Phase 0 (2026-05-07). Inviolable.
+ */
+
+:root {
+  /* Imperial purple — the foundation */
+  --bg-0: #15082b;        /* deep imperial purple, the kingdom floor */
+  --bg-1: #1f0e3d;        /* card background */
+  --bg-2: #2c1453;        /* borders, dividers */
+  --bg-3: #3a1d6b;        /* elevated surface, hover */
+
+  /* Sovereign gold */
+  --gold: #f5b740;        /* THE crown color */
+  --gold-deep: #d4a017;   /* deeper for contrast */
+  --gold-soft: #f5b74033; /* gold + alpha for glows */
+
+  /* Highlight purple */
+  --purple: #a78bfa;      /* highlight */
+  --purple-glow: #8b5cf6; /* orb / accent glow */
+
+  /* Type */
+  --text: #f4ecff;        /* warm off-white with purple tint */
+  --muted: #b4a0d4;       /* secondary text */
+
+  /* Status */
+  --green: #4ade80;
+  --red: #f87171;
+
+  /* Spacing rhythm (mobile-first) */
+  --tap: 44px;            /* min touch target — cheatcode #2 */
+  --r-sm: 8px;
+  --r-md: 14px;
+  --r-lg: 20px;
+}
+
+/* Default body — purple kingdom floor */
+html, body {
+  background: var(--bg-0);
+  color: var(--text);
+  font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
